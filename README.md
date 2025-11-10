@@ -17,10 +17,11 @@
 - [04_loops](01_basics_python/04_loops/) — Циклы `for` и `while`
 
 ### Этап 2: Data Science
-Папка: [05_data_science](05_data_science/)  
+Папка: [02_data_science](02_data_science/)  
 Содержит примеры по обработке данных и статистике:
 
-- `data_statistics.py` — пример работы с данными, базовые вычисления и статистика
+- [data_statistics.py](02_data_science/data_statistics.py) — пример работы с данными, базовые вычисления и статистика
+
 
 ---
 
