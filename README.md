@@ -31,3 +31,14 @@
 
 ```bash
 git clone https://github.com/RezPoint/python-projects.git
+```
+
+2. Перейди в папку проекта и запусти нужный пример через Python:
+```bash
+cd python-projects
+python 01_basics_python/01_hello/hello.py
+```
+
+Изучай комментарии в коде — они объясняют работу каждой строки.
+
+Все примеры можно использовать для экспериментов и своих проектов.
