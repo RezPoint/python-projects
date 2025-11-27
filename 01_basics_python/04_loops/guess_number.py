@@ -15,7 +15,17 @@ attempts_start = attempts_left
 guessed = False
 
 while attempts_left > 0:
-    guess = int(input("Твой вариант: "))
+    raw_input_value = input("Твой вариант: ").strip()
+    if not raw_input_value:
+        print("Нужно ввести число, попробуй ещё раз.")
+        continue
+
+    try:
+        guess = int(raw_input_value)
+    except ValueError:
+        print("Это не похоже на число. Введи целое число от 1 до 20.")
+        continue
+
     attempts_left -= 1
 
     if guess == secret:
