@@ -1,8 +1,18 @@
-name=input("Введите своё имя: ")
+name = input("Введи своё имя: ")
+age = int(input("Сколько тебе лет? "))
+favorite_language = input("Какой язык программирования тебе нравится? ")
+hours_per_week = float(input("Сколько часов в неделю учишься? "))
 
-age=int(input("Введите свой возраст: "))
+print("\n--- Результат ---")
+print(f"Привет, {name}!")
+print(f"Тебе {age} лет, ты любишь {favorite_language}.")
+print(f"Учишься примерно {hours_per_week} часов в неделю — это круто!")
 
-greeting=f"Привет, {name}!"
+if age < 0:
+    print("Похоже, возраст введён неверно.")
+elif age < 18:
+    print("Ты начинаешь свой путь очень рано, молодец!")
+else:
+    print("Отличный взрослый подход к обучению.")
 
-print(greeting)
-print(f"Тебе {age} лет")
+print("Продолжай так же, и всё получится!")

@@ -22,6 +22,7 @@ print("Студент:", is_student)
 favorite_language = "Python"
 hours_per_day = 8
 
+# Выводим на экран
 print(f"Мой любимый язык программирования: {favorite_language}")
 print(f"Я изучаю {favorite_language} {hours_per_day} часов в день")
 
